@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>NetTools Hub – Công cụ & tài nguyên online hữu ích</title>
-  <meta name="description" content="NetTools Hub tổng hợp các công cụ online, tài nguyên miễn phí và hướng dẫn đơn giản giúp bạn sử dụng Internet hiệu quả hơn.">
+  <meta name="description" content="NetTools Hub tổng hợp công cụ online, tài nguyên miễn phí và hướng dẫn giúp bạn sử dụng Internet hiệu quả hơn và kiếm tiền online an toàn.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="index, follow">
 
   <style>
     body {
@@ -17,32 +16,40 @@
       text-align: center;
     }
     .container {
-      max-width: 680px;
-      margin: 80px auto;
+      max-width: 720px;
+      margin: 70px auto;
       padding: 20px;
     }
     h1 {
       font-size: 30px;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
     }
     p {
       font-size: 16px;
-      line-height: 1.6;
+      line-height: 1.7;
       opacity: 0.9;
     }
     .cta {
-      margin-top: 40px;
+      margin-top: 28px;
     }
     .btn {
       background: #22c55e;
       color: #0f172a;
-      padding: 14px 28px;
+      padding: 14px 26px;
       border-radius: 8px;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 17px;
       font-weight: bold;
       display: inline-block;
       cursor: pointer;
+    }
+    .btn.alt {
+      background: #38bdf8;
+      margin-top: 14px;
+    }
+    .btn.gray {
+      background: #64748b;
+      margin-top: 14px;
     }
     .note {
       font-size: 13px;
@@ -57,29 +64,44 @@
     <h1>NetTools Hub</h1>
 
     <p>
-      NetTools Hub là nơi tổng hợp các <strong>công cụ online hữu ích</strong>,
+      NetTools Hub là nơi tổng hợp <strong>công cụ online hữu ích</strong>,
       <strong>tài nguyên miễn phí</strong> và <strong>hướng dẫn đơn giản</strong>
       giúp bạn sử dụng Internet hiệu quả hơn mỗi ngày.
     </p>
 
     <p>
-      Không cần đăng ký, không cài đặt phức tạp – chỉ cần truy cập và sử dụng ngay.
+      Bạn có thể khám phá công cụ ngay hoặc tìm hiểu cách kiếm tiền online phù hợp với người mới.
     </p>
 
+    <!-- A: Kiếm tiền ngay -->
     <div class="cta">
-      <a class="btn" onclick="go()">Khám phá công cụ</a>
+      <a class="btn" onclick="goMoney()">Khám phá công cụ miễn phí</a>
+    </div>
+
+    <!-- B: Học cách kiếm tiền -->
+    <div class="cta">
+      <a class="btn alt" href="https://allnet.vn/monetag-la-gi-va-cach-kiem-tien-monetag-hieu-qua" target="_blank">
+        Tìm hiểu cách kiếm tiền online
+      </a>
+    </div>
+
+    <!-- C: Đăng ký Monetag -->
+    <div class="cta">
+      <a class="btn gray" href="https://monetag.com/?ref_id=za4l" target="_blank">
+        Đăng ký Monetag (Miễn phí)
+      </a>
     </div>
 
     <p class="note">
-      Miễn phí – Không yêu cầu đăng nhập
+      Không yêu cầu đăng nhập – Phù hợp cho người mới
     </p>
   </div>
 
   <script>
-    function go() {
+    function goMoney() {
       setTimeout(function () {
-        window.location.href = "https://monetag.com/?ref_id=za4l";
-      }, 2500);
+        window.location.href = "https://otieu.com/4/9831009";
+      }, 2200);
     }
   </script>
 </body>
