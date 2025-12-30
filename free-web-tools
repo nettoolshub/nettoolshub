@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Free Web Tools for Webmasters & Marketers</title>
+
+  <!-- SEO -->
+  <meta name="description" content="A curated collection of free, fast and simple web tools for webmasters, developers and marketers. No signup required." />
+  <meta name="keywords" content="free web tools, ip checker, website speed test, online tools, webmaster tools" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Free Web Tools for Webmasters & Marketers" />
+  <meta property="og:description" content="Free, fast and simple online tools. No signup. No tracking." />
+  <meta property="og:type" content="website" />
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fb;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 16px;
+      color: #555;
+    }
+    .tools {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .tool-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .tool-card h3 {
+      margin-top: 0;
+    }
+    .tool-card p {
+      font-size: 14px;
+      color: #555;
+    }
+    .tool-card a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+    }
+    .highlight {
+      background: #fff;
+      border-left: 4px solid #0066cc;
+      padding: 20px;
+      margin: 30px 0;
+      border-radius: 6px;
+    }
+    .highlight a {
+      color: #0066cc;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .trust {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 30px;
+    }
+    .trust div {
+      background: #e9f3ff;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-size: 13px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13px;
+      color: #777;
+    }
+    footer a {
+      color: #777;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>Free Web Tools for Webmasters & Marketers</h1>
+      <p>
+        A curated collection of free, fast and simple web tools.<br>
+        No signup. No tracking. Just useful tools.
+      </p>
+    </header>
+
+    <!-- TOOL LIST -->
+    <section class="tools">
+
+      <div class="tool-card">
+        <h3>🔧 IP Checker</h3>
+        <p>Check your public IP address instantly and accurately.</p>
+        <a href="ip-checker.html">Use IP Checker →</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>🌐 IP Lookup</h3>
+        <p>Find IP location, ISP, country and basic network details.</p>
+        <a href="ip-lookup.html">Use IP Lookup →</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>⚡ Website Speed Test</h3>
+        <p>Test how fast your website loads from a user perspective.</p>
+        <a href="website-speed-test.html">Test Website Speed →</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>🔐 Password Generator</h3>
+        <p>Generate strong and secure passwords in one click.</p>
+        <a href="password-generator.html">Generate Password →</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>📝 Text Utilities</h3>
+        <p>Simple text tools for formatting, cleaning and editing.</p>
+        <a href="text-tools.html">Open Text Tools →</a>
+      </div>
+
+    </section>
+
+    <!-- MONETIZATION SECTION -->
+    <section class="highlight">
+      <p><strong>⚡ Want faster performance for your website?</strong></p>
+      <p>
+        A reliable and affordable hosting solution can significantly improve
+        speed, uptime and SEO results.
+      </p>
+      <p>
+        👉 <a href="YOUR_AFFILIATE_LINK_HERE" target="_blank" rel="nofollow sponsored">
+          Recommended hosting for small websites
+        </a>
+      </p>
+    </section>
+
+    <!-- TRUST SIGNALS -->
+    <section class="trust">
+      <div>✔ 100% Free Tools</div>
+      <div>✔ No Account Required</div>
+      <div>✔ No Tracking Scripts</div>
+      <div>✔ Built for Daily Use</div>
+    </section>
+
+    <footer>
+      <p>
+        Built with ❤️ for webmasters & developers.<br>
+        <a href="about.html">About</a> ·
+        <a href="privacy.html">Privacy</a>
+      </p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
